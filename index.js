@@ -10,14 +10,7 @@ function yourAnimal() {
 }
 
 function add2(n) {
-  const two = 2
-  return parseInt(n, 10) + two
-}
-
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
-  }
+  return parseInt(n, 10) + 2
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
